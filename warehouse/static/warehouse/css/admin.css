@@ -1,0 +1,53 @@
+/* Расширение темы Unfold */
+
+/* Градиентные кнопки */
+.button, input[type="submit"], .submit-row input {
+    background: linear-gradient(135deg, #8B5CF6 0%, #6D28D9 100%) !important;
+    border: none !important;
+    box-shadow: 0 4px 6px -1px rgba(139, 92, 246, 0.3);
+    transition: all 0.3s ease;
+    border-radius: 8px !important;
+}
+
+.button:hover, input[type="submit"]:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 15px -3px rgba(139, 92, 246, 0.4);
+}
+
+/* Карточки дашборда с эффектом стекла */
+.dashboard-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-2px);
+}
+
+/* Анимация строк таблицы */
+#result_list tbody tr {
+    transition: all 0.2s ease;
+    border-radius: 8px;
+}
+
+#result_list tbody tr:hover {
+    background-color: #F5F3FF !important; /* Light purple hover */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Сайдбар */
+#nav-sidebar {
+    background-color: #4C1D95 !important; /* Темный фиолет */
+}
+
+#nav-sidebar .module h2, #nav-sidebar .module caption {
+    color: #DDD6FE !important;
+}
+
+#nav-sidebar a.section:link, #nav-sidebar a.section:visited {
+    color: #F5F3FF !important;
+}

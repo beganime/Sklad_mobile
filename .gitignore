@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env*.local
+.venv
+env/
+venv/
+build/
+dist/
+*.egg-info/
+*.json
+
+# Специфично для uv / pip
+.cache
+.python-version
+
+# IDE (VS Code, PyCharm)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker & OS
+.dockerignore
+Thumbs.db
+.DS_Store
+
+# Тесты и отчеты (Playwright/Pytest)
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+test-results/
+payload.json
+/frontend/dist
+/frontend/node_modules
